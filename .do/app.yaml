@@ -1,0 +1,37 @@
+# DigitalOcean App Platform spec — homepage for Evonor Consulting AS.
+#
+# Project assignment
+# ------------------
+# DO doesn't take `project_id` in this spec file. Pass it at create time:
+#
+#   doctl apps create --spec .do/app.yaml \
+#       --project-id 4fbab7f5-7bc2-4ef6-ae98-7a877696a3c4
+#
+# (4fbab7f5… is the "Evonor Consulting" project under the `evonor` doctl
+# context. Re-verify with `doctl projects list` if it ever drifts.)
+#
+# If the app already exists, move it:
+#
+#   doctl apps list                                # find app ID
+#   doctl projects resources assign 4fbab7f5-7bc2-4ef6-ae98-7a877696a3c4 \
+#       --resource=do:app:<app-id>
+#
+# Set `github.repo` to `owner/repo` once the homepage is pushed to GitHub.
+
+name: evonor-homepage
+region: fra
+
+static_sites:
+  - name: web
+    source_dir: /
+    build_command: npm run build
+    output_dir: dist
+    index_document: index.html
+    # SPA fallback — every unknown path returns index.html.
+    error_document: index.html
+    github:
+      repo: Kaninsokk/evonor-homepage
+      branch: main
+      deploy_on_push: true
+    routes:
+      - path: /

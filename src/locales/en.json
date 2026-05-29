@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "company": "Evonor Consulting AS",
+    "tagline": "Independent IT consulting & product engineering"
+  },
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "about": "About",
+    "contact": "Contact",
+    "getInTouch": "Get in touch"
+  },
+  "hero": {
+    "eyebrow": "Norway-based · est. 2025",
+    "title": "Engineering partners for teams that ship.",
+    "subtitle": "Evonor Consulting helps companies design, build, and operate reliable software — from backend systems and APIs to web and mobile products. One operator, deep experience, no overhead.",
+    "primaryCta": "Start a conversation",
+    "secondaryCta": "See what we do"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What we do",
+    "subtitle": "Hands-on engineering, architecture, and delivery. We work as an embedded partner or run focused projects end to end.",
+    "items": {
+      "consulting": {
+        "title": "Technical consulting",
+        "body": "Architecture reviews, technology selection, and pragmatic roadmaps. We help you make decisions you won't have to undo in twelve months."
+      },
+      "delivery": {
+        "title": "Product engineering",
+        "body": "End-to-end delivery of web and mobile applications. TypeScript, React, React Native, Node.js, and the cloud infrastructure to back them."
+      },
+      "platforms": {
+        "title": "Platform & APIs",
+        "body": "REST and event-driven systems, database design, CI/CD, observability. Built to be maintained — by your team, not just by us."
+      },
+      "ai": {
+        "title": "Applied AI",
+        "body": "Practical integrations of LLMs and modern AI tooling into existing products. Workflow automation, internal tools, and customer-facing features that actually ship."
+      }
+    }
+  },
+  "work": {
+    "eyebrow": "Work",
+    "title": "Projects & products",
+    "subtitle": "Alongside consulting, we build a small portfolio of focused online products. These are live initiatives — independently operated by Evonor Consulting AS.",
+    "items": {
+      "lokalyx": {
+        "name": "Lokalyx",
+        "category": "SaaS · Developer tools",
+        "body": "A developer-first translation management platform. Teams manage translation keys, use AI to translate at scale, and ship via CDN, REST API, and CLI."
+      },
+      "flowhook": {
+        "name": "Flowhook",
+        "category": "SaaS · Workflow automation",
+        "body": "Webhook and workflow tooling for engineering teams. Reliable delivery, replay, and observability for the integrations that hold systems together."
+      },
+      "dishnest": {
+        "name": "Dishnest",
+        "category": "Product · Consumer",
+        "body": "A consumer product exploring everyday food planning. In active development."
+      },
+      "consulting": {
+        "name": "Consulting engagements",
+        "category": "Services · Clients",
+        "body": "Long-running engineering partnerships with Norwegian and international companies. References available on request."
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "A small, focused practice.",
+    "body": [
+      "Evonor Consulting AS is an independent Norwegian company. We work the way the best small studios work — closely with clients, with senior engineering on every line of code, and without the layers of process you don't need.",
+      "The practice is led by Thomas Godheim, an engineer with deep experience across backend systems, web and mobile applications, and the cloud platforms that run them. The same person who scopes the work delivers it."
+    ],
+    "stats": {
+      "based": { "label": "Based in", "value": "Norway" },
+      "founded": { "label": "Founded", "value": "2025" },
+      "structure": { "label": "Structure", "value": "Aksjeselskap (AS)" },
+      "model": { "label": "Engagement", "value": "Fixed-scope or retainer" }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk.",
+    "subtitle": "Briefs, partnerships, and questions are welcome. We respond within one business day.",
+    "emailLabel": "Email",
+    "emailValue": "thomas@evonorconsulting.no",
+    "locationLabel": "Location",
+    "locationValue": "Norway · Working remotely across CET / UTC",
+    "ctaLabel": "Send an email",
+    "ctaHref": "mailto:thomas@evonorconsulting.no"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "legalName": "Evonor Consulting AS",
+    "country": "Registered in Norway",
+    "links": {
+      "services": "Services",
+      "work": "Work",
+      "about": "About",
+      "contact": "Contact"
+    }
+  }
+}
