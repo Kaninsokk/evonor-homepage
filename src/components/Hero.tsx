@@ -7,7 +7,7 @@ export default function Hero() {
     <section id="top" className="relative overflow-hidden">
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-x-0 -top-32 h-[420px] bg-[radial-gradient(60%_60%_at_50%_40%,rgba(79,70,229,0.10),transparent_70%)]"
+        className="pointer-events-none absolute inset-x-0 -top-32 h-[420px] bg-[radial-gradient(60%_60%_at_50%_40%,rgba(26,140,186,0.12),transparent_70%)]"
       />
       <div className="relative mx-auto max-w-6xl px-6 pt-24 pb-20 md:pt-32 md:pb-28">
         <p className="text-[12.5px] uppercase tracking-[0.18em] text-mute">
